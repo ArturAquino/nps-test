@@ -5,7 +5,11 @@ import {
 	Switch
 } from 'react-router-dom'
 import logo from './logo.svg';
-import { Home } from '../src/spa';
+import { 
+	Home, 
+	Thanks,
+	Justify
+} from '../src/spa';
 import './App.css';
 
 const App: React.FC = () => {
@@ -20,9 +24,9 @@ const App: React.FC = () => {
 			<Router>
 				<Switch>
 					<Route path="/" exact component={Home} />
-					{/* <Route path="/justify" component={Justify} />
-					<Route path="/complete" component={ThankYou} />
-					<Route path="*" component={NotFound} /> */}
+					<Route path="/justify" component={Justify} />
+					<Route path="/Thanks" component={Thanks} />
+					{/* <Route path="*" component={NotFound} /> */}
 				</Switch>
 			</Router>
 		</div>

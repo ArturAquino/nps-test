@@ -1,7 +1,9 @@
 import Home from './Home/Home';
-import Justification from './Justification/Justification';
+import Justify from './Justify/Justify';
+import Thanks from  './Thanks/Thanks'
 
 export {
     Home,
-    Justification
+    Justify,
+    Thanks
 }
