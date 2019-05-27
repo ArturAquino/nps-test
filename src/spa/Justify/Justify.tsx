@@ -25,7 +25,7 @@ class Justify extends Component<State> {
 	
 	ButtonComponents () {
 		return (
-			<div>
+			<div className="buttons">
 				<Button 
 					content="Voltar" 
 					secondary 
@@ -40,11 +40,15 @@ class Justify extends Component<State> {
 
 	onSubmit (event:any) {
 		event.preventDefault()
-		this.setState({textInformed: true})
+		this.setState({
+			textInformed: true,
+			buttonAction: goAheadAction
+		})
 	}
 
 	render () {
 		const {
+			textInformed,
 			buttonAction
 		} = this.state
 
@@ -52,14 +56,13 @@ class Justify extends Component<State> {
 			return (
 				<Redirect to="/" />
 			)
-		} else if(equals(buttonAction, goAheadAction)) {
+		} else if(textInformed && equals(buttonAction, goAheadAction)) {
 			return (
-				<Redirect to="/" />
+				<Redirect to="/Thanks" />
 			)
 		}
 
 		return (
-			
 			<Form className="container" onSubmit={this.onSubmit.bind(this)}>
 				<p className="question">
 					Por favor, comente os motivos da sua avaliação.
