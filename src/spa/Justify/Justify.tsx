@@ -26,11 +26,13 @@ class Justify extends Component<State> {
 	ButtonComponents () {
 		return (
 			<div className="buttons">
-				<Button 
+				<Button
+					className="buttonsecondary" 
 					content="Voltar" 
 					secondary 
 					onClick={() => this.setState({buttonAction: backAction})}/>
 				<Button 
+					className="buttonprimary"
 					content="Avançar"
 					primary 
 					type="submit" />
