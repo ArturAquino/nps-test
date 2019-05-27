@@ -14,7 +14,7 @@ const App: React.FC = () => {
 			<header className="App-header">
 				<div>
 					<img src={logo} className="App-logo" alt="logo" /> 
-					<p>Fake Company LTDA.</p>
+					<p>Fake Company LTDA</p>
 				</div>
 			</header>
 			<Router>
