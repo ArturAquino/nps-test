@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+A survey app made with [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Ramda](https://ramdajs.com/) (the last one, used for specific purposes).
+
 ## Available Scripts
 
 In the project directory, you can run:

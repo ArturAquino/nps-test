@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { 
-	Form, 
+	Form,
 	Button,
 	TextArea
 } from 'semantic-ui-react';

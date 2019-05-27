@@ -1,7 +1,8 @@
 {
   "name": "nps-test",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://arturaquino.github.io/nps-test/",
   "dependencies": {
     "@types/jest": "^24.0.13",
     "@types/node": "^12.0.2",
