@@ -1,0 +1,23 @@
+.nps-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0 15px;
+}
+
+.nps-items {
+    margin: 5px;
+	width: 55px;
+	height: 35px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid transparent;
+    cursor: pointer;
+	border-radius: 6px;
+	color: white;
+}
+
+.nps-items:hover {
+	opacity: 0.75;
+}
