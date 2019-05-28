@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nps-test/static/css/main.cdde3d1c.chunk.css",
+    "main.js": "/nps-test/static/js/main.bcff354c.chunk.js",
+    "main.js.map": "/nps-test/static/js/main.bcff354c.chunk.js.map",
+    "runtime~main.js": "/nps-test/static/js/runtime~main.b79788e2.js",
+    "runtime~main.js.map": "/nps-test/static/js/runtime~main.b79788e2.js.map",
+    "static/js/2.ed17e046.chunk.js": "/nps-test/static/js/2.ed17e046.chunk.js",
+    "static/js/2.ed17e046.chunk.js.map": "/nps-test/static/js/2.ed17e046.chunk.js.map",
+    "index.html": "/nps-test/index.html",
+    "precache-manifest.f75e7c38c8c746ccb472d1cfffe0b5a2.js": "/nps-test/precache-manifest.f75e7c38c8c746ccb472d1cfffe0b5a2.js",
+    "service-worker.js": "/nps-test/service-worker.js",
+    "static/css/main.cdde3d1c.chunk.css.map": "/nps-test/static/css/main.cdde3d1c.chunk.css.map",
+    "static/media/clap.gif": "/nps-test/static/media/clap.c44d98a6.gif",
+    "static/media/logo.svg": "/nps-test/static/media/logo.ee7cd8ed.svg"
+  }
+}
